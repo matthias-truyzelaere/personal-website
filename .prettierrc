@@ -1,0 +1,19 @@
+{
+	"semi": false,
+	"tabWidth": 4,
+	"useTabs": true,
+	"printWidth": 500,
+	"singleQuote": true,
+	"trailingComma": "all",
+	"jsxSingleQuote": true,
+	"bracketSameLine": true,
+	"plugins": ["prettier-plugin-tailwindcss"],
+	"overrides": [
+		{
+			"files": "*.svg",
+			"options": {
+				"parser": "html"
+			}
+		}
+	]
+}

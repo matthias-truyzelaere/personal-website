@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@theme {
+	/* Colors */
+	--border-color: #e8e8e8;
+	--color-primary: #121212;
+	--color-secondary: #505050;
+
+	/* Typography */
+	--font-mono: var(--font-mono);
+	--font-sans: var(--font-sans);
+}
+
+@layer base {
+	body {
+		@apply text-primary font-sans antialiased;
+	}
+}
+
+#root {
+	/* Layout */
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
