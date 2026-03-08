@@ -20,32 +20,14 @@ const inter = Inter({
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://matthiastruyzelaere.com'),
-	title: 'Matthias Truyzelaere - Resume & CV',
-	description: 'The professional portfolio and CV of Matthias Truyzelaere. Explore my skills, projects, and academic background.',
-	applicationName: 'Matthias Truyzelaere - Resume & CV',
 	authors: [{ name: 'Matthias Truyzelaere' }],
 	publisher: 'Matthias Truyzelaere',
-	keywords: ['Matthias Truyzelaere', 'resume', 'CV', 'portfolio', 'software developer', 'web developer', 'projects', 'skills', 'experience', 'Belgium'],
 	robots: {
 		follow: true,
 		index: true,
 	},
-	alternates: {
-		canonical: 'https://matthiastruyzelaere.com',
-	},
 	icons: {
 		icon: '/favicon.ico',
-	},
-	openGraph: {
-		type: 'website',
-		url: 'https://matthiastruyzelaere.com',
-		title: 'Matthias Truyzelaere - Resume & CV',
-		description: 'The professional portfolio and CV of Matthias Truyzelaere. Explore my skills, projects, and academic background.',
-	},
-	twitter: {
-		card: 'summary_large_image',
-		title: 'Matthias Truyzelaere - Resume & CV',
-		description: 'The professional portfolio and CV of Matthias Truyzelaere. Explore my skills, projects, and academic background.',
 	},
 }
 
