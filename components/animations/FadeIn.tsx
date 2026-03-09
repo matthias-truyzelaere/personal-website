@@ -2,7 +2,7 @@
 
 import type { ReactNode } from 'react'
 import type { Transition } from 'motion/react'
-import { domAnimation, LazyMotion, m, useReducedMotion } from 'motion/react'
+import { m, useReducedMotion } from 'motion/react'
 
 interface FadeInProps {
 	children: ReactNode
@@ -28,10 +28,8 @@ export default function FadeIn({ children, duration = 0.65, delay = 0, direction
 			}
 
 	return (
-		<LazyMotion features={domAnimation}>
-			<m.div className={'flex w-full flex-col items-center'} initial={initial} transition={transition} viewport={{ once: true, margin: '-50px' }} whileInView={whileInView}>
-				{children}
-			</m.div>
-		</LazyMotion>
+		<m.div className={'flex w-full flex-col items-center'} initial={initial} transition={transition} viewport={{ once: true, margin: '-50px' }} whileInView={whileInView}>
+			{children}
+		</m.div>
 	)
 }

@@ -5,9 +5,9 @@ import nextVitals from 'eslint-config-next/core-web-vitals'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 const eslintConfig = defineConfig([
-	.../** @type {any} */ (nextVitals),
 	.../** @type {any} */ (nextTs),
-	globalIgnores(['.next/**', 'out/**', 'build/**', 'next-env.d.ts']),
+	.../** @type {any} */ (nextVitals),
+	globalIgnores(['.next/**', '.open-next/**', 'out/**', 'build/**', 'next-env.d.ts']),
 	{
 		plugins: {
 			perfectionist,

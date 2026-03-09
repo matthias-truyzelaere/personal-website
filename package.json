@@ -6,7 +6,7 @@
 		"build": "next build",
 		"dev": "next dev",
 		"start": "next start",
-		"lint": "eslint --fix",
+		"lint": "eslint .",
 		"prettier": "npx prettier . --write",
 		"preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
 		"deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
