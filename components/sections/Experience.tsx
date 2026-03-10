@@ -14,7 +14,7 @@ export default function Experience() {
 					<li className={'list-none'}>
 						<article className={'flex gap-3'}>
 							<div className={'flex h-12 w-12 shrink-0 items-center justify-center'}>
-								<Image alt={''} aria-hidden={true} className={'h-12 w-12 object-contain'} height={48} priority={true} sizes={'48px'} src={deloitte} width={48} />
+								<Image alt={'Deloitte Logo'} aria-hidden={true} className={'h-12 w-12 object-contain'} height={48} priority={true} sizes={'48px'} src={deloitte} width={48} />
 							</div>
 							<div className={'flex flex-col gap-2'}>
 								<div>
@@ -30,7 +30,7 @@ export default function Experience() {
 					<li className={'list-none'}>
 						<article className={'flex gap-3'}>
 							<div className={'flex h-12 w-12 shrink-0 items-center justify-center'}>
-								<Image alt={''} aria-hidden={true} className={'h-12 w-12 object-contain'} height={48} priority={true} sizes={'48px'} src={nyxaHosting} width={48} />
+								<Image alt={'Nyxa Hosting Logo'} aria-hidden={true} className={'h-12 w-12 object-contain'} height={48} priority={true} sizes={'48px'} src={nyxaHosting} width={48} />
 							</div>
 							<div className={'flex flex-col gap-2'}>
 								<div>
