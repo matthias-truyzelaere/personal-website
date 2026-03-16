@@ -3,21 +3,21 @@
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"build": "next build",
 		"dev": "next dev",
+		"build": "next build",
 		"start": "next start",
 		"lint": "eslint --fix",
+		"update": "ncu -u && npm install",
 		"prettier": "npx prettier . --write",
-		"update_deps": "ncu -u && npm install",
 		"cleanup": "npm run lint && npm run prettier",
-		"preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
 		"deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
 		"upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+		"preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
 		"cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
 	},
 	"dependencies": {
 		"@opennextjs/cloudflare": "^1.17.1",
-		"motion": "^12.36.0",
+		"motion": "^12.37.0",
 		"next": "^16.1.6",
 		"npm-check-updates": "^19.6.3",
 		"react": "^19.2.4",
@@ -36,7 +36,7 @@
 		"prettier-plugin-tailwindcss": "^0.7.2",
 		"tailwindcss": "^4.2.1",
 		"typescript": "^5.9.3",
-		"wrangler": "^4.73.0"
+		"wrangler": "^4.74.0"
 	},
 	"browserslist": [
 		"defaults and fully supports es6-module",

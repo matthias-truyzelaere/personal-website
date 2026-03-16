@@ -11,23 +11,23 @@ import Experience from '@/components/sections/Experience'
 import Certifications from '@/components/sections/Certifications'
 
 export const metadata: Metadata = {
-	title: 'Matthias Truyzelaere - Resume & CV',
-	description: 'The professional portfolio and CV of Matthias Truyzelaere. Explore my skills, projects, and academic background.',
-	applicationName: 'Matthias Truyzelaere - Resume & CV',
-	keywords: ['Matthias Truyzelaere', 'resume', 'CV', 'portfolio', 'software developer', 'web developer', 'projects', 'skills', 'experience', 'Belgium'],
+	title: 'Matthias Truyzelaere - Junior Consultant | CV',
+	description: 'This is my personal website and CV. Explore my skills, experiences, and academic background.',
+	applicationName: 'Matthias Truyzelaere - Junior Consultant | CV',
+	keywords: ['Matthias Truyzelaere', 'personal website', 'resume', 'experience', 'Belgium'],
 	alternates: {
 		canonical: 'https://matthiastruyzelaere.com',
 	},
 	openGraph: {
 		type: 'website',
 		url: 'https://matthiastruyzelaere.com',
-		title: 'Matthias Truyzelaere - Resume & CV',
-		description: 'The professional portfolio and CV of Matthias Truyzelaere. Explore my skills, projects, and academic background.',
+		title: 'Matthias Truyzelaere - Junior Consultant | CV',
+		description: 'This is my personal website and CV. Explore my skills, experiences, and academic background.',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Matthias Truyzelaere - Resume & CV',
-		description: 'The professional portfolio and CV of Matthias Truyzelaere. Explore my skills, projects, and academic background.',
+		title: 'Matthias Truyzelaere - Junior Consultant | CV',
+		description: 'This is my personal website and CV. Explore my skills, experiences, and academic background.',
 	},
 }
 

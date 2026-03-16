@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import { Geist_Mono, Inter } from 'next/font/google'
 
 import '@/app/globals.css'
+
 import MotionProvider from '@/components/animations/MotionProvider'
 
 const geistMono = Geist_Mono({
