@@ -12,8 +12,8 @@ export default function Contact() {
 						<div className={'flex flex-wrap justify-between gap-2'}>
 							<dt>Email</dt>
 							<dd>
-								<a className={linkClassName} href={'mailto:matthias.truyzelaere@gmail.com'}>
-									matthias.truyzelaere@gmail.com
+								<a className={linkClassName} href={'mailto:matthias@matthiastruyzelaere.com'}>
+									matthias@matthiastruyzelaere.com
 								</a>
 							</dd>
 						</div>

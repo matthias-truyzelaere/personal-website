@@ -6,7 +6,7 @@ export default function Footer() {
 	return (
 		<FadeIn>
 			<footer className={'flex w-full justify-center border-r-[0.5px] border-b-[0.5px] border-l-[0.5px] border-dashed border-(--border-color) px-4 py-6 sm:w-160'}>
-				<p className={'text-secondary'}>&copy; {year} Matthias Truyzelaere</p>
+				<p className={'text-secondary'}>&copy; {year} Matthias Truyzelaere. All rights reserved.</p>
 			</footer>
 		</FadeIn>
 	)
