@@ -7,7 +7,7 @@ import { defineConfig, globalIgnores } from 'eslint/config'
 const eslintConfig = defineConfig([
 	.../** @type {any} */ (nextTs),
 	.../** @type {any} */ (nextVitals),
-	globalIgnores(['.next/**', '.open-next/**', 'out/**', 'build/**', 'next-env.d.ts']),
+	globalIgnores(['.next/**', '.open-next/**', '.wrangler/**', 'out/**', 'build/**', 'next-env.d.ts']),
 	{
 		plugins: {
 			perfectionist,
