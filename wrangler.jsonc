@@ -27,5 +27,9 @@
 			"pattern": "matthiastruyzelaere.com",
 			"custom_domain": true,
 		},
+		{
+			"pattern": "www.matthiastruyzelaere.com",
+			"custom_domain": true,
+		},
 	],
 }
