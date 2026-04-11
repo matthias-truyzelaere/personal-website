@@ -18,7 +18,7 @@
 	"dependencies": {
 		"@opennextjs/cloudflare": "latest",
 		"motion": "latest",
-		"next": "16.1.7",
+		"next": "16.2.3",
 		"npm-check-updates": "latest",
 		"react": "latest",
 		"react-dom": "latest"
