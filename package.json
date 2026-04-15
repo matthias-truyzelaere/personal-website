@@ -18,7 +18,7 @@
 	"dependencies": {
 		"@opennextjs/cloudflare": "latest",
 		"motion": "latest",
-		"next": "16.1.7",
+		"next": "latest",
 		"npm-check-updates": "latest",
 		"react": "latest",
 		"react-dom": "latest"
@@ -30,7 +30,7 @@
 		"@types/react": "latest",
 		"@types/react-dom": "latest",
 		"eslint": "9.39.4",
-		"eslint-config-next": "16.1.7",
+		"eslint-config-next": "latest",
 		"eslint-plugin-perfectionist": "latest",
 		"prettier": "latest",
 		"prettier-plugin-tailwindcss": "latest",
